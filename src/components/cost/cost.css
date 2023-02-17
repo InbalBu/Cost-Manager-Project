@@ -1,0 +1,82 @@
+a {
+  color: white !important;
+}
+
+.cost {
+  background-image: url("https://img.freepik.com/free-vector/gradient-wave-background-illustration-vector_343694-1523.jpg?w=1380&t=st=1671629729~exp=1671630329~hmac=15a616290f158375e5e3bf5535fd7032d1bfabcfdc5d014019d903b6c8a35517");
+  background-position: center;
+  object-fit: cover;
+  border: 3px black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: lightblue;
+  height: fit-content;
+  width: 18%;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+}
+.cost > div > span {
+  margin: 10px 0;
+  font-weight: bold;
+  color: black;
+}
+.costTitle{
+  font-size: 30px;
+  color: #65a166;
+  text-shadow: 2px 2px #2C5F2D;
+    font-weight: bold;
+}
+
+.btnCost {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0,  #65a166 0, #5d785e 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  height: 48px;
+  width: 80%;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 8px;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btnCost:focus {
+  box-shadow: #2C5F2D 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #2C5F2D 0 -3px 0 inset;
+}
+
+.btnCost:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #2C5F2D 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btnCost:active {
+  box-shadow: #2C5F2D 0 3px 7px inset;
+  transform: translateY(2px);
+}

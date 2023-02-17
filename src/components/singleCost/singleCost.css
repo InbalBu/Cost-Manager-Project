@@ -1,0 +1,70 @@
+.singleCost {
+  width: 28%;
+  overflow: hidden;
+  background-image: url("https://img.freepik.com/free-vector/gradient-wave-background-illustration-vector_343694-1523.jpg?w=1380&t=st=1671629729~exp=1671630329~hmac=15a616290f158375e5e3bf5535fd7032d1bfabcfdc5d014019d903b6c8a35517");
+  margin-top: 100px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  }
+  
+  .singleCostWrapper {
+    padding: 20px;
+    padding-right: 0;
+    font-weight: 600;
+  }
+  
+  .singleCostImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .singleCostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .singleCostEdit {
+    float: right;
+    font-size: 16px;
+
+  }
+  
+  .singleCostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .singleCostIcon:first-child {
+    color: teal;
+  }
+  .singleCostIcon:last-child {
+    color: tomato;
+  }
+  
+  .singleCostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  }
+
+  .singleCostDesc {
+    color: #666;
+    font-size: 20px;
+    line-height: 25px;
+    overflow: auto;
+  }
+  
+  .singleCostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .singleCostDate {
+    margin-right: 20px;
+  }
